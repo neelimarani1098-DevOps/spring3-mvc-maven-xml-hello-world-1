@@ -12,7 +12,7 @@ pipeline {
         NEXUS_CREDENTIAL_ID = "Nexus_server"
 
         // Slack configuration
-        SLACK_CHANNEL = "#jenkins-notifications" // replace with your Slack channel
+        SLACK_CHANNEL = "#jenkins-integration" // replace with your Slack channel
         SLACK_CREDENTIAL_ID = "slack-token-id"   // Jenkins credential id for Slack token
     }
     stages {
